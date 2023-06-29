@@ -19,8 +19,8 @@ def GC4W2X3(url):
     x2 = numpy.r_[[int(i) for i in big_x_numbers]]
     y1 = numpy.r_[[int(i) for i in small_y_numbers]]
     y2 = numpy.r_[[int(i) for i in big_y_numbers]]
-    pyplot.plot(x1, y1)
-    pyplot.plot(y2, x2)
+    pyplot.scatter(x1, -y1,s=0.1)
+    pyplot.scatter(x2, -y2,s=0.1)
     pyplot.grid(True)
     pyplot.show()
 
@@ -33,4 +33,4 @@ def GC4W2X3(url):
 
 
 result =   GC4W2X3('https://www.geocaching.com/geocache/GC4W2X3')
-print(result) #after take graph and combine with OSM and get real place
+print(result) #after take graph and combine with OSM to get real place
