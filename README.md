@@ -1,2 +1,2 @@
 # Geocaching
-solved by myself geocaching mysteries with phyton. 
+solved by myself geocaching mysteries with Python. 
