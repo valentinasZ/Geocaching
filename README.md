@@ -1,2 +1,2 @@
 # Geocaching
-solved by myself geocaching mysteries with Python. 
+Solved by myself geocaching mysteries using programming skills. 
